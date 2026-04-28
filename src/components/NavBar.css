@@ -1,0 +1,90 @@
+.container-fluid {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.home-nav-links{
+    color: white;
+}
+
+.home-navbar {
+    height: auto;
+    min-height: 80px;
+    max-width: auto;
+    background-color: black;
+  }
+
+.nav-tags{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center; 
+    gap: 4.5rem; 
+    margin-right: 10px;
+}
+
+.nav-tag{
+    color: white;
+    font-size: 1.1rem;
+    font-family: 'Open Sauce One Light', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-title{
+    font-size: 1.8rem;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Open Sauce One Bold', sans-serif;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1500px) {
+  .nav-tags {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+  }
+
+  .nav-tag{
+    color: white;
+    font-size: 1.05rem;
+    font-family: 'Open Sauce One Light', sans-serif;
+    text-transform: uppercase;
+}
+
+  .home-navbar {
+    height: auto;
+    min-height: 80px;
+  }
+
+  .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .nav-tags {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem 0;
+  }
+
+  .nav-tag {
+    font-size: 1.05rem;
+  }
+
+  .home-navbar {
+    height: auto;
+    min-height: 80px;
+  }
+
+  .container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

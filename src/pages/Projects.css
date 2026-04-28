@@ -1,0 +1,53 @@
+
+.projects-heading-div {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.projects-title {
+  color: white;
+  font-size: 4.8rem;
+  font-family: 'Open Sauce One SemiBold', sans-serif;
+  margin-bottom: 95px;
+}
+
+.project-research-title {
+  font-size: 3.5rem;
+  margin-left: -180px;
+  text-align: left;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+.featured-project-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 150px;
+  padding: 0 10%;
+  gap: 70px;
+}
+
+.project-text {
+  flex: 1;
+  color: white;
+}
+
+.project-paragraph{
+  text-align: left;;
+}
+
+.project-description {
+  width: 100%;
+  font-size: 14.5px;
+  line-height: 2;
+}
+
+.project-img{
+  flex: 1;
+  max-width: 500px;
+  height: 320px;
+  background-color: lightgray;
+}

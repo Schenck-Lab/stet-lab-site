@@ -1,0 +1,33 @@
+.researcher-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 300px;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.researcher-img {
+  width: 230px;
+  height: 230px;
+  object-fit: cover;
+  border-radius: 50%;  
+  transition: transform 0.5s ease, circle-shadow 0.5s ease;
+}
+
+.researcher-img:hover{
+    transform: scale(1.15);
+}
+
+.researcher-title {
+  margin: 0;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.researcher-summary {
+  margin: 0;
+  font-size: 0.95rem;
+  text-align:justify;
+  line-height: 1.6;
+}

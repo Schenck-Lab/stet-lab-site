@@ -1,0 +1,41 @@
+.job-opening-info-div{
+    background-color: white;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;       /* vertically center content */
+    border-radius: 30px;
+    padding: 20px 30px;
+    text-decoration: none; 
+    color: inherit; 
+    cursor: pointer; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.job-info-div{
+    flex: 1;          /* takes up available space */
+    text-align: left;
+}
+
+.hours-info-div {
+    text-align: right;   /* aligns text to right */
+    margin-top: -40px;
+}
+
+.job-description{
+    font-size: 1.1rem;
+}
+
+.hours-title{
+    font-size: 1.2rem;
+}
+
+.work-study-info{
+    font-size: 1.2rem;
+}
+

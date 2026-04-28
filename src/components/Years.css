@@ -1,0 +1,21 @@
+.year-heading{
+    text-align: center;
+    font-size: 3.4rem;
+    color: white;
+}
+
+.year-div{
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+.year-div:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 12px rgba(255,255,255,0.8);
+}
+
+.year-active{
+    transform: scale(1.1);
+    text-shadow: 0 0 18px rgba(255,255,255,1);
+}
+
